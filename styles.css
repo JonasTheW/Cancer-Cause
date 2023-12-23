@@ -1,0 +1,113 @@
+body{
+    font-family: Work Sans;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+}
+
+#hero{
+    background-image: url("Images/Background-1.jpg");
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+
+
+}
+#logo{
+    background-image: url("Images/New-logo.png");
+    width: 310px;
+    height: 100px;
+    background-size: cover;
+}
+
+#text1{
+    margin-top: 130px;
+    color: white;
+
+}
+#donate-button{
+    background-color: Red;
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+#donate-button:hover{
+    background-color: rgb(219, 23, 23);
+}
+
+#donate{
+    margin-top: 50px;
+    text-shadow: 0px 0px 3px black;
+    color: white;
+
+}
+#midBody{
+    padding-top: 5px;
+    height: 450px;
+    background-image:linear-gradient(#f03a0f,#F79A08) ;
+}
+
+#explanation-word{  
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#image-depiction{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+#lowBody{
+
+    height: 500px;
+    background-color:#F79A08 ;
+}
+#FaQ{
+
+    color: white;
+    margin: 0 auto;
+    width: fit-content;
+
+}
+.question{
+    border: 3px solid rgb(255, 46, 46);
+    text-align: start;
+    color: rgb(255, 255, 255);
+    padding:10px 15px;
+    background-color: red;
+}
+#Q1, #Q2{
+    margin-bottom: 50px;
+}
+
+.answer{
+    text-align: start;
+    color: rgb(255, 255, 255);
+    padding:10px 15px;
+    background-color: orange;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F79A08;
+    height: 150px;
+}
+
+#footerLogo{
+    margin-top: 40px;
+    width: 200px;
+}
+#contactUs{
+    margin-top: 40px;
+    color: white;
+}
+#email{
+    color: white;
+    font-style: italic;
+}
